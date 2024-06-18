@@ -1,21 +1,24 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 body {
   color: white;
   font-family: Arial, sans-serif;
-  text-align: center;
   background-image: url("assets/img/mqKqJD9yYbE7SplNRIFOU1.png");
   background-size: cover;
   background-position: center;
+  text-align: left;
 }
 
 .wrapper {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0;
   padding: 20px;
+  text-align: left;
 }
 
 .controls {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 
@@ -35,7 +38,7 @@ body {
 .log-display {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 20px;
 }
 
@@ -81,7 +84,7 @@ body {
 .log-step {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 10px;
   width: 100%;
@@ -90,11 +93,12 @@ body {
 .log-step h3 {
   margin: 10px 0;
   width: 100%;
+  text-align: left; /* Añadido */
 }
 
 .cards-row {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   flex-grow: 1;
 }
